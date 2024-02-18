@@ -8,6 +8,9 @@ namespace Smarthome
 {
     public class Wohnzimmer
     {
+        /// <summary>
+        /// Wohnzimmer wird erstellt
+        /// </summary>
         public string Ambientebeleuchtung { get; set; } 
 
         public void PrintStatus()

@@ -8,11 +8,14 @@ namespace Smarthome
 {
     internal class Jalousiensteuerung
     {
+        /// <summary>
+        /// Jalousiensteuerung wird erstellt.
+        /// </summary>
         private bool jalousieRunter;
 
         public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
         {
-            // Logik für die Jalousiensteuerung basierend auf Wetterdaten
+            
             if (wetterdaten.Aussentemperatur > 25 && !wetterdaten.Regen)
             {
                 jalousieRunter = true;

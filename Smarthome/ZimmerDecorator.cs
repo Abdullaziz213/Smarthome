@@ -8,6 +8,9 @@ namespace Smarthome
 {
     internal class ZimmerDecorator 
     {
+        /// <summary>
+        /// ZimmerDecorator wird erstellt
+        /// </summary>
         protected IZimmer Zimmer { get; set; }
 
         public string Name { get; set; }

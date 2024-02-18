@@ -8,6 +8,10 @@ namespace Smarthome
 {
     public class BadWC
     {
+
+        /// <summary>
+        /// /Badezimmer mit der Feuhtigkeit anzeige
+        /// </summary>
         public double Feuchtigkeit { get; set; }
 
         public void PrintStatus()

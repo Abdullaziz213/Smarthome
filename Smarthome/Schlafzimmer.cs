@@ -8,6 +8,9 @@ namespace Smarthome
 {
     public class Schlafzimmer
     {
+        /// <summary>
+        /// Schlafzimmer wird erstellt
+        /// </summary>
         public DateTime Weckzeit { get; set; }
 
         public void PrintStatus()

@@ -6,6 +6,10 @@ namespace Smarthome
 {
     class Programm
     {
+        /// <summary>
+        /// Temperatur Vorgabe wird eingesetzt und Funktionen.
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             

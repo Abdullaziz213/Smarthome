@@ -8,6 +8,9 @@ namespace Smarthome
 {
     internal class KochherdStatus
     {
+        /// <summary>
+        /// KochherdStatus
+        /// </summary>
         private enum KochherdStatu
         {
             Aus, An, AusAberNochWarm

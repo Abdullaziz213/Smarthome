@@ -8,6 +8,9 @@ namespace Smarthome
 {
     public class Wintergarten
     {
+        /// <summary>
+        /// Wintergarten wird erstellt.
+        /// </summary>
         public double Sonneneinstrahlung { get; set; }
 
         public void PrintStatus()

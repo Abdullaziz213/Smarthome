@@ -8,11 +8,17 @@ namespace Smarthome
 {
     internal class Heizungsventil
     {
+
+        /// <summary>
+        /// Heizungsventil wird erstellt.
+        /// </summary>
+        /// 
+
         private bool heizungsventilOffen;
 
         public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
         {
-            // Logik für das Heizungsventil basierend auf Wetterdaten
+            /
             if (wetterdaten.Aussentemperatur < 15)
             {
                 heizungsventilOffen = true;

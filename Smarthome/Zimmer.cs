@@ -8,6 +8,9 @@ namespace Smarthome
 {
     internal class Zimmer
     {
+        /// <summary>
+        /// Zimmerfunktionen werden erstellt
+        /// </summary>
         public string Name { get; set; }
         public bool PersonenImZimmer { get; set; }
         public double TemperaturVorgabe { get; set; }

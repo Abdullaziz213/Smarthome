@@ -8,11 +8,14 @@ namespace Smarthome
 {
     internal class Markisensteuerung
     {
+        /// <summary>
+        /// Markisensteuerung wird erstellt
+        /// </summary>
         private bool markiseAusgefahren;
 
         public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
         {
-            // Logik für die Markisensteuerung basierend auf Wetterdaten
+            
             if (wetterdaten.Aussentemperatur > 25 && !wetterdaten.Regen && wetterdaten.Windgeschwindikeit < 30)
             {
                 markiseAusgefahren = true;

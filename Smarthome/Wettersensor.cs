@@ -8,10 +8,14 @@ namespace Smarthome
 {
     internal class Wettersensor
     {
+        /// <summary>
+        /// Funktionen werden erstellt
+        /// </summary>
+
         private double aktuelleTemperatur;
         private Random zufaellig;
-        private const int MAXTEMP = 35; // Maximaltemperatur
-        private const int MINTEMP = -10; // Minimaltemperatur
+        private const int MAXTEMP = 35; 
+        private const int MINTEMP = -10; 
 
         public Wettersensor()
         {

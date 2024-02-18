@@ -8,6 +8,9 @@ namespace Smarthome
 {
     internal class Wetterdaten
     {
+        /// <summary>
+        /// Wetterdaten
+        /// </summary>
         public double Aussentemperatur { get; set; }
 
         public bool Regen { get; set; }
